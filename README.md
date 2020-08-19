@@ -3,7 +3,7 @@
 1. Τα άρθα θα τα παρουμε από το: [www.semanticscholar.org](https://www.semanticscholar.org/cord19). 
 2. Για την εργασία αυτή θα κατασκευάσουμε το Σχημα της Βάσης καθώς και το πρόγραμμα που διαβάζει τα δεδομένα από τα αρχέια και τα βάζει στην βάση μας.
 
-## Requirements
+## [Requirements](requirements.txt)
 
 - mysql 8.0.19
 - mysql_connector 2.2.9
