@@ -1,5 +1,5 @@
 # Internet and Applications
-For the needs of "Internet and Application" we will build o project that inserts articels into a relational database.
+For the needs of "Internet and Application" we will build a project that inserts articels into a relational database.
 1. The articles our downloaded from: [www.semanticscholar.org](https://www.semanticscholar.org/cord19). 
 2. We will create the Database ER-diagram and the Database with MySQLWorkbench and the program that will insert our data into our database.
 3. We also created a program tha produces a bar diagram presenting the articles published per month, by "PLoS One" magazine.
@@ -21,7 +21,7 @@ For the needs of "Internet and Application" we will build o project that inserts
 3. Run,
 
 ```bash
-	$ git clone https://github.com/elenisproject/internet-and-applications.git
+ $ git clone https://github.com/elenisproject/internet-and-applications.git
  $ cd internet-and-applications
 ```
 
@@ -33,8 +33,8 @@ For the needs of "Internet and Application" we will build o project that inserts
 6. Run the following strictly at this order,
 
 ```bash
-	$ pip3 install -r requirements.txt
-	$ python3 ./import-data/insert_metadata.py
+ $ pip3 install -r requirements.txt
+ $ python3 ./import-data/insert_metadata.py
  $ python3 ./import-data/insert_into_first_table.py
  $ python3 ./import-data/insert_authors.py
  $ python3 ./import-data/insert_text.py
@@ -61,4 +61,5 @@ While the other 14 tables are used to save all our data from the pdf_jason folde
 [import-data](https://github.com/elenisproject/internet-and-applications/tree/master/import%20data):
  
  - *settings.py:* contains the settings for connecting to our database.
+ - *read_metadata.py:* plots the bar diagram for all articles published per month by "PLoS One" magazine
  - *_.py:* is the code used to insert our data to a table, the file's name is the table's name we insert our data.
