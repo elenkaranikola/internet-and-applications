@@ -50,7 +50,7 @@ For the needs of "Internet and Application" we will build a project that inserts
  $ python3 ./import-data/ref_entries.py
 ```
 
-## Δομή αρχείων:
+## File Structure:
 [database-configuration](https://github.com/elenisproject/internet-and-applications/tree/master/database-configuration):
 this file contais the code to build our local database.<br />
 Our Database hase 15 tables in total, one table for the metadata.csv file that has the general information for all the pdf_json files. <br />
