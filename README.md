@@ -1,6 +1,6 @@
 # Internet and Applications
 For the needs of "Internet and Application" we will build a project that inserts articels into a relational database.
-1. The articles our downloaded from: [www.semanticscholar.org](https://www.semanticscholar.org/cord19). 
+1. The articles are downloaded from: [www.semanticscholar.org](https://www.semanticscholar.org/cord19). 
 2. We will create the Database ER-diagram and the Database with MySQLWorkbench and the program that will insert our data into our database.
 3. We also created a program tha produces a bar diagram presenting the articles published per month, by "PLoS One" magazine.
 
