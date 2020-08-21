@@ -46,8 +46,10 @@ mysql-connector-python==8.0.20
 nbconvert==5.6.1
 nbformat==5.0.6
 nltk==3.5
+node==0.9.25
 notebook==6.0.3
 numpy==1.18.1
+odict==1.7.0
 packaging==20.3
 pandas==1.0.4
 pandocfilters==1.4.2
@@ -55,6 +57,7 @@ parsel==1.5.2
 parso==0.7.0
 pexpect==4.8.0
 pickleshare==0.7.5
+plumber==1.6
 prometheus-client==0.7.1
 prompt-toolkit==3.0.5
 Protego==0.1.16
@@ -100,4 +103,11 @@ wcwidth==0.1.9
 webencodings==0.5.1
 wrapt==1.11.2
 zipp==3.1.0
+zope.component==4.6.2
+zope.deferredimport==4.3.1
+zope.deprecation==4.4.0
+zope.event==4.4
+zope.hookable==5.0.1
 zope.interface==5.0.2
+zope.lifecycleevent==4.3
+zope.proxy==4.3.5
