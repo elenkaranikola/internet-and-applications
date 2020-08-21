@@ -52,6 +52,7 @@ For the class "Internet and Application" of NTUA we will build a project that in
 
 7. Run the database2.js
 ```bash
+   $ cd node-js/node-js-mysql
    $ node database2.js
 ```
 
