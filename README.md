@@ -50,6 +50,12 @@ For the class "Internet and Application" of NTUA we will build a project that in
  $ python3 ./import-data/ref_entries.py
 ```
 
+7. Run the database2.js
+```bash
+   $ node database2.js
+```
+
+
 ## File Structure:
 [database-configuration](https://github.com/elenisproject/internet-and-applications/tree/master/database-configuration):
 this file contais the code to build our local database.<br />
@@ -61,5 +67,6 @@ While the other 14 tables are used to save all our data from the pdf_jason folde
 [import-data](https://github.com/elenisproject/internet-and-applications/tree/master/import%20data):
  
  - *settings.py:* contains the settings for connecting to our database.
- - *read_metadata.py:* plots the bar diagram for all articles published per month by "PLoS One" magazine
  - *_.py:* is the code used to insert our data to a table, the file's name is the table's name we insert our data.
+ - *database2.js:* connects with the database and runs some quiries that selects all articles published per month by "PLoS One" magazine
+ - *final-chart.html:* shows the plot produced by database2.js
