@@ -1,24 +1,56 @@
 header{
-    text-align: center;
-    width: 50%;
-    margin: 50px auto;    
+    margin:0 auto;
+    background-image: url('img.jpg'); 
+    background-size: cover;
+    font-size: 40px;
+    height: 250px;
+    text-align: center; 
+    line-height: 1.8;
 }
-
 main {
     width: 50%;
     margin: 50px auto;
     text-align: center;
 }
 
+body {
+    background-color: #e6f6ff;
+}
+
 table {
+    
     margin: 50px auto;
 }
 
 table, th, td {
+    background-color: #fafdff;
     border-collapse: collapse;
     border: 1px solid #000;
+    border-radius: 10px;
 }
 
-th, td {
+th {
+    height: 40px;
     padding: 5px;
 }
+td {
+    padding: 5px;
+}
+input {
+    font-size: 15px; 
+}
+#search-btn {
+    font-size: 15px;    
+}
+
+#update-btn {
+    background-color: #5600bf; 
+    border: 2px solid black;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
