@@ -89,3 +89,4 @@ While the other 14 tables are used to save all our data from the pdf_jason folde
  - *database2.js:* connects with the database and runs some quiries that selects all articles published per month by "PLoS One" magazine
  - *final-chart.html:* shows the plot produced by database2.js
  - *app.js:* connects with database, serves in localhost:3000
+ - *java-eclipse:* for the java project 
