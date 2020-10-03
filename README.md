@@ -86,7 +86,6 @@ While the other 14 tables are used to save all our data from the pdf_jason folde
  
  - *settings.py:* contains the settings for connecting to our database.
  - *_.py:* is the code used to insert our data to a table, the file's name is the table's name we insert our data.
- - *database2.js:* connects with the database and runs some quiries that selects all articles published per month by "PLoS One" magazine
- - *final-chart.html:* shows the plot produced by database2.js
+ - *final-chart.html:* shows the plot produced by app.js
  - *app.js:* connects with database, serves in localhost:3000
  - *java-eclipse:* for the java project 
