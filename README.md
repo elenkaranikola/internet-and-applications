@@ -3,16 +3,33 @@ For the class "Internet and Application" of NTUA we will build a project that in
 1. The articles are downloaded from: [www.semanticscholar.org](https://www.semanticscholar.org/cord19). 
 2. We will create the Database ER-diagram and the Database with MySQLWorkbench and the program that will insert our data into our database.
 3. We also created a program tha produces a bar diagram presenting the articles published per month, by "PLoS One" magazine.
+4. We added a javascript file that fetches the 10 top countries with the most publishes.
+5. Furthermore we inserted a search bar that brings back all the titles from the articles produced by an organization.
+
+### We expanded our project by adding an independent java service
+6. We created a java application in eclipse.
+7. For the needs of this service we added a user table in ou database that savs the first and last name of our users.
+8. Through the application you can see all the users added, add a new user and search for the articles produced by an organization.
+
 
 ## [Requirements](requirements.txt)
-
+### For the first project:
 - mysql 8.0.19
 - mysql_connector 2.2.9
 - numpy 1.17.4
 - pandas 0.25.3
 
+### For the second project:
+- eclipse IDE
+- mysql 8.0.19
+- jsp 2.2
+- apache tomcat 8.5
+- jdk 1.8
+- jstl 1.2.1
+- Servlet API 2.5
+
 ## Installation
-1. First of all we initialize a mysql database, in our project we used [MySQLWorkbenc](https://www.mysql.com/products/workbench/)
+1. First of all we initialize a mysql database, in our project we used [MySQLWorkbench](https://www.mysql.com/products/workbench/)
 2. Then, connect to your database using your crendentials and run the following inside mysql command prompt:
    1. [create-tables.sql](database-configuration/create-tables.sql): to create the database.
    
@@ -50,12 +67,12 @@ For the class "Internet and Application" of NTUA we will build a project that in
  $ python3 ./import-data/ref_entries.py
 ```
 
-7. Run the database2.js
+7. Run the app.js
 ```bash
    $ cd node-js/node-js-mysql
-   $ node database2.js
+   $ cd server
+   $ nodemon app.js
 ```
-
 
 ## File Structure:
 [database-configuration](https://github.com/elenisproject/internet-and-applications/tree/master/database-configuration):
@@ -71,3 +88,4 @@ While the other 14 tables are used to save all our data from the pdf_jason folde
  - *_.py:* is the code used to insert our data to a table, the file's name is the table's name we insert our data.
  - *database2.js:* connects with the database and runs some quiries that selects all articles published per month by "PLoS One" magazine
  - *final-chart.html:* shows the plot produced by database2.js
+ - *app.js:* connects with database, serves in localhost:3000
